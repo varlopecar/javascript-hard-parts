@@ -5,3 +5,4 @@ function multiplyBy2(inputNumber) {
 }
 const output = multiplyBy2(num);
 const newOutput = multiplyBy2(10);
+
