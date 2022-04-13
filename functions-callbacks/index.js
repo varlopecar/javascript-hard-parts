@@ -6,9 +6,6 @@ function copyArrayAndManipulate(arr, callback) {
   return newArr;
 }
 
-const arr = [1, 2, 3, 4, 5];
-function multiplyBy2(num) {
-  return num * 2;
-}
-const result = copyArrayAndManipulate(arr, multiplyBy2);
+const result = copyArrayAndManipulate([1, 2, 3, 4, 5], num => num * 2);
+
 console.log(result);
